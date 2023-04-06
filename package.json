@@ -4,5 +4,14 @@
   "description": "projeto aula 2 vem ser dev",
   "main": "index.js",
   "author": "filipe",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
 }
